@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0x;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}

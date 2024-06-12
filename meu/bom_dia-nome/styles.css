@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100dvh;
+
+    background-color: #FFEFBD;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.botao{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.nome{
+
+    padding: 5px;
+    border-radius: 10px;
+
+}
