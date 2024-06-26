@@ -15,7 +15,8 @@ for(x=0; x<sorteada.length;x++){
 localStorage.setItem("palavra_adivinhar",JSON.stringify(palavra_adivinhar));
 letras = document.querySelectorAll(".letra");
 
-    letras.forEach(function(letra){
+    letras.forEach(
+        function(letra){
         letra.addEventListener("click",function(e){
             if(localStorage['tentativas']>0 && localStorage['vitoria']==0){
                 if(localStorage.getItem("sorteada").indexOf(e.target.id)==-1){
@@ -42,4 +43,5 @@ letras = document.querySelectorAll(".letra");
                 }     
             }
         });
-    });
+    }
+);
